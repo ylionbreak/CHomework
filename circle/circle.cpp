@@ -1,22 +1,22 @@
 
-#include"point.h"
+#include"circle.h"
 
-circle::Circle(Point& _point,int _R){
+Circle::Circle(Point& _point,int _R){
     x = _point.getX();
     y = _point.getY();
     R = _R;
     point = _point;
 }
-circle::void move(int _x,int _y){
+void Circle:: move(int _x,int _y){
     x=_x;
     y=_y;
 }
-circle::int getX(){
+int Circle:: getX(){
     return x;
 }
-circle::int getY(){
+int Circle:: getY(){
     return y;
 }
-circle::Point getCenter(){
+Point Circle:: getCenter(){
    return  point;
 }

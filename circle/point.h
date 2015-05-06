@@ -1,7 +1,6 @@
 #ifndef POINT_H
 #define POINT_H
 
-#include "circle.h"
 class Point{
     public:
         int x,y;

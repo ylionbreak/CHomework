@@ -6,9 +6,9 @@
             x=_x;
             y=_y;
         }
-        Point::int getX(){
+       int Point:: getX(){
             return x;
         }
-        Point::int getY(){
+       int Point:: getY(){
             return y;
         }
